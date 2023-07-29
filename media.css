@@ -1,4 +1,4 @@
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
 header a {
     text-decoration: none;
     font-size: 12px;
@@ -26,8 +26,40 @@ header .img2 {
     background-color:  rgb(236, 232, 217);
     min-height: 70vh;
 }
+.cards {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
-/* @media (max-width: 750px) {
-    .divb {
+.cardA {
+    width: 80%;
+    margin-left: -5px;
 }
-} */
+}
+ @media (min-width: 550px) {
+     .hero2 {
+        background-image: url(./printivobackground.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+     }
+}
+@media (max-width: 750px) {
+    .cards {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.cardA {
+    width: 80%;
+    margin-left: -5px;
+}
+.cardA h4 {
+    font-size: 22px;
+}
+}
