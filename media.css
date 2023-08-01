@@ -36,8 +36,15 @@ header .img2 {
     gap: 30px;
 }
 .cardA {
-    width: 80%;
-    margin-left: -5px;
+    width: 70%;
+    margin-left: 18px;
+}
+.cardA h4 {
+    font-size: 20px;
+}
+.cardA a {
+    transform: translateX(120px);
+    font-size: 20px;
 }
 }
  @media (min-width: 550px) {
