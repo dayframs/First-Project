@@ -52,14 +52,19 @@ header .img2 {
     .cards {
     padding: 20px 20px;
     display: grid;
+    width: 70%;
+    margin: auto;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 .cardA {
-    width: 80%;
-    margin-left: -5px;
+    width: 70%;
+    margin-left: 15px;
 }
 .cardA h4 {
-    font-size: 22px;
+    font-size: 18px;
+}
+.cardA a {
+    transform: translateX(100px);
 }
 }
