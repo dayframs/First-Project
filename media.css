@@ -32,7 +32,7 @@ header .img2 {
     padding: 20px 50px;
     min-height: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 .cardA {
@@ -48,11 +48,11 @@ header .img2 {
         background-position: right;
      }
 }
-@media (max-width: 750px) {
+@media (max-width: 600px) {
     .cards {
     padding: 20px 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 .cardA {
