@@ -126,8 +126,7 @@ header .img2 {
     display: none;
 }
 .hero1c {
-    justify-content: right;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     width: 250px;
 }
@@ -138,7 +137,7 @@ header .img2 {
 }
 .hero1a {
     margin-left: -20px;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 .hero2 h1 {
     font-size: 35px;
@@ -146,9 +145,12 @@ header .img2 {
 }
 
 .hero2 form {
-    width: 115%;
+    width: 95%;
 }
 .hero2 {
     margin-left: -20px;
+}
+.create {
+    display: none;
 }
 }
