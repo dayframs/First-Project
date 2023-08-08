@@ -69,7 +69,7 @@ header span {
 }
 .heropage {
     background-color:  rgb(236, 232, 217);
-    min-height: 100vh;
+    min-height: 60vh;
     display: grid;
     grid-template-rows: 100px 1fr;
     padding-top: 70px;
