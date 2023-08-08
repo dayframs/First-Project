@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: serif;
 }
 
 header {
@@ -187,7 +188,6 @@ header span {
     margin-left: -80px;
 }
 .cardA h4 {
-    font-family: serif;
     font-size: 32px;
     font-weight: 800;
     color: rgb(95, 93, 93);
@@ -230,4 +230,87 @@ header span {
     color: grey;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+}
+.clients, .testimonial {
+    padding: 40px 47px;
+}
+.clients h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.clients p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(91, 88, 88);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 650px;
+    line-height: 30px;
+}
+.clients img {
+    width: 101%;
+    margin-bottom: 20px;
+}
+.testimonial {
+    background-color: rgba(187, 210, 248, 0.5);
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.testimonial h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.testimonials img {
+    width: 32px;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding: 8px;
+    border-radius: 18px;
+    margin-top: 20px;
+} 
+.testimonials1 {
+    display: grid;
+    grid-template-columns: 50px auto;
+    background-color: white;
+    width: 90%;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+.testimonials2 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.testimonials2 .span2 {
+    color: rgb(0, 145, 255);
+    font-weight: 800;
+    font-size: 18px;
+}
+.testimonials2 .span3 {
+    color: rgb(0, 145, 255);
+    font-weight: 500;
+    font-size: 14px;
+}
+.testimonials2 .div2a p {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.count {
+    padding: 70px 30px 40px 30px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.counts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.countA {
+    display: grid;
+    grid-template-columns: 50px auto;
+}

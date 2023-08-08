@@ -46,6 +46,18 @@ header .img2 {
     transform: translateX(120px);
     font-size: 20px;
 }
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.testimonials1 {
+    display: grid;
+    grid-template-columns: 50px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
 }
  @media (min-width: 550px) {
      .hero2 {
@@ -73,5 +85,28 @@ header .img2 {
 }
 .cardA a {
     transform: translateX(70px);
+}
+.shadow-sm {
+    margin-bottom: 20px;
+}
+.diva {
+    display: none;
+}
+.divb {
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 200%;
+    padding-left: 40px;
+}
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.testimonials1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    max-width: 500px;
+    padding-left: 10px;
 }
 }
