@@ -129,9 +129,13 @@ header span {
     position: relative;
     padding: 30px 60px;
 }
+.hero2 .menu {
+    display: none;
+}
 .hero2 h1 {
     font-size: 70px;
     font-weight: 700;
+    margin-top: -50px;
 }
 .hero2 p {
     font-size: 20px;

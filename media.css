@@ -143,7 +143,13 @@ header .img2 {
     font-size: 35px;
     font-weight: 700;
 }
-
+.hero2 .menu {
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 4px;
+    display: inline-block;
+}
 .hero2 form {
     width: 95%;
 }
