@@ -343,9 +343,16 @@ header span {
     margin-bottom: 15px;
 }
 .count {
-    padding: 70px 30px 40px 30px;
+    padding: 100px 50px;
     display: grid;
     grid-template-rows: 1fr auto;
+    color: rgb(71, 67, 67);
+    overflow: hidden;
+    background-color: white;
+}
+.count h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
 }
 .counts {
     display: grid;
@@ -354,7 +361,45 @@ header span {
 }
 .countA {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 80px auto;
+    padding: 10px;
+}
+.countb, .noticeb {
+    display: grid;
+    grid-template-rows: 33px auto;
+}
+.countb .pe {
+    font-weight: 600;
+    overflow-x: hidden;
+    overflow: hidden;
+} 
+.notice {
+    padding: 90px 20px;
+    background-color: rgb(237, 233, 233, 0.2);
+    overflow: hidden;
+}
+.notice h2 {
+    font-weight: 800;
+    margin: 0 0 20px 50px;
+}
+.notices {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.noticeb {
+    width: 233px;
+    margin-top: 20px;
+}
+.noticeb img {
+    height: 30px;
+}
+.noticeb a {
+    color: black;
+    font-size: 18px;
 }
 .directories {
     min-height: 200px;
