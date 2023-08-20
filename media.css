@@ -57,14 +57,14 @@ header .img2 {
     gap: 30px;
 }
 .cardA {
-    width: 70%;
-    margin-left: 18px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
 }
 .cardA h4 {
     font-size: 20px;
 }
 .cardA a {
-    transform: translateX(120px);
     font-size: 20px;
 }
 .testimonials {
@@ -109,13 +109,24 @@ header button {
     font-weight: 800px;
 }
 .cardA {
-    width: 80%;
+    width: 90%;
+    margin-top: 20px;
 }
 .cardA h4 {
     font-size: 18px;
 }
 .cardA a {
     font-size: 14px
+}
+.cards {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    width: 90%;
 }
 .shadow-sm {
     margin-bottom: 20px;
@@ -151,18 +162,16 @@ header button {
 .hero1 {
     display: grid;  
     grid-template-columns: 250px 1fr;  
-    padding: 30px 25px 80px 60px;
+    padding: 30px 5px 80px 30px;
     align-items: center;
-    position: sticky;
     overflow: hidden;
 }
 .hero1b {
     display: none;
 }
 .hero1c {
-    justify-content: flex-end;
     align-items: center;
-    width: 250px;
+    width: 200px;
 }
 .counts {
     display: flex;
@@ -170,8 +179,7 @@ header button {
     gap: 30px;
 }
 .hero1a {
-    margin-left: -20px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .hero2 h1 {
     font-size: 35px;
@@ -194,5 +202,10 @@ header button {
 }
 .create {
     display: none;
+}
+.directories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
 }
 }
