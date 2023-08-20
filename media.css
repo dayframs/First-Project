@@ -104,14 +104,13 @@ header .img2 {
     gap: 20px;
 }
 .cardA {
-    width: 70%;
-    margin-left: 18px;
+    width: 80%;
 }
 .cardA h4 {
-    font-size: 16px;
+    font-size: 18px;
 }
 .cardA a {
-    transform: translateX(70px);
+    font-size: 14px
 }
 .shadow-sm {
     margin-bottom: 20px;
