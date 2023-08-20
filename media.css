@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 950px) and (min-width: 601px) {
 header a {
     text-decoration: none;
     font-size: 12px;
@@ -25,6 +25,28 @@ header .img2 {
 .heropage {
     background-color:  rgb(236, 232, 217);
     min-height: 70vh;
+}
+.hero1 {
+    display: grid;  
+    grid-template-columns: 330px 1fr;  
+    padding: 30px 25px 80px 60px;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+}
+.hero1b {
+    display: none;
+}
+.hero1c {
+    justify-content: right;
+    align-items: center;
+}
+.img1 {
+    width: 135px;
+}
+.hero1a {
+    margin-left: -20px;
+    margin-right: 10px;
 }
 .cards {
     margin-top: 10px;
@@ -122,6 +144,14 @@ header .img2 {
     max-width: 500px;
     padding-left: 10px;
 }
+.hero1 {
+    display: grid;  
+    grid-template-columns: 250px 1fr;  
+    padding: 30px 25px 80px 60px;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+}
 .hero1b {
     display: none;
 }
@@ -149,6 +179,8 @@ header .img2 {
     font-size: 18px;
     border-radius: 4px;
     display: inline-block;
+    padding: 2px 6px 2px 12px;
+    margin-bottom: 20px;
 }
 .hero2 form {
     width: 95%;

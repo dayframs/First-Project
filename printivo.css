@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -15,6 +16,7 @@ position: fixed;
 width: 100%;
 z-index: 1;
 background-color: white;
+overflow: hidden;
 }
 header a {
     text-decoration: none;
@@ -110,8 +112,6 @@ header span {
 .hero1b a {
     color: black;
     font-weight: 600;
-    /* margin: 10px;
-    justify-content: space-between; */
 }
 .hero1c {
     display: grid;
@@ -184,6 +184,10 @@ header span {
     font-size: 18px;
     font-weight: 700;
     width: 100%;
+}
+.carousel,
+.carousel-item, p {
+    overflow-y: hidden;
 }
 .carousel span {
     margin-left: 5px;
