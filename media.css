@@ -48,7 +48,6 @@ header .img2 {
     margin-right: 10px;
 }
 .cards {
-    margin-top: 10px;
     margin-bottom: 20px;
     padding: 20px 50px;
     min-height: 300px;
@@ -58,14 +57,12 @@ header .img2 {
 }
 .cardA {
     width: 90%;
-    margin: auto;
-    padding: 10px 0;
 }
 .cardA h4 {
-    font-size: 20px;
+    font-size: 24px;
 }
 .cardA a {
-    font-size: 20px;
+    font-size: 18px;
 }
 .testimonials {
     display: flex;
@@ -110,16 +107,14 @@ header button {
 }
 .cardA {
     width: 90%;
-    margin-top: 20px;
 }
 .cardA h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .cardA a {
-    font-size: 14px
+    font-size: 16px
 }
 .cards {
-    margin-top: 10px;
     margin-bottom: 20px;
     padding: 20px 50px;
     min-height: 300px;
@@ -204,8 +199,8 @@ header button {
     display: none;
 }
 .directories {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 5px;
 }
 }
