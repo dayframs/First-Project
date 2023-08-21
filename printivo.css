@@ -46,7 +46,7 @@ header button {
     width: 100px;
     background-color: white;
 }
-header span {
+header .span2 {
     color: rgb(101, 101, 237);
     cursor: pointer;
 }
@@ -175,7 +175,7 @@ header span {
 }
 .carousel {
     height: 80px;
-    background-color: rgb(236, 163, 175);
+    background-color: rgb(243, 177, 205);
     text-align: center;
     padding-top: 10px;
     font-size: 18px;
@@ -396,14 +396,37 @@ header span {
 .directories {
     min-height: 200px;
     width: 100%;
-    padding: 30px;
-    background-color: rgb(17, 17, 57);
+    padding: 70px;
+    background-color: rgb(53, 74, 94);
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2px;
-    justify-content: center;
-    align-items: center;
+}
+.directories4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px; 
+}
+.directories h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(246, 242, 242);
+    margin-bottom: 18px;
+}
+.directories p {
+line-height: 13px;
+}
+.directories4 img {
+    width: 63%;
+    margin-top: -12px;
+}
+.directories4 .fa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 65%;
+    font-size: 24px;
+    cursor: pointer;
 }
 footer {
     height: 80px;

@@ -82,7 +82,7 @@ header .img2 {
     gap: 30px;
 }
 }
- @media (min-width: 550px) {
+ @media (min-width: 601px) {
      .hero2 {
         background-image: url(./printivobackground.webp);
         background-repeat: no-repeat;
@@ -104,6 +104,9 @@ header button {
     width: 100px;
     padding: 8px 5px;
     font-weight: 800px;
+}
+header .span1 {
+    display: none;
 }
 .heropage {
     grid-template-rows: 30px 1fr;
@@ -186,13 +189,12 @@ header button {
     font-weight: 700;
 }
 .hero2 p button {
-    font-size: 18px;
+    font-size: 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
     display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    padding: 10px 20px;
+    margin-bottom: 28px;
     background-color: white;
 }
 .hero2 form {
@@ -212,8 +214,13 @@ header button {
 }
 .directories {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    flex-direction: column;
+    gap: 25px;
+}
+.directories4 .fa,
+.directories4 img {
+    width: 40%;
+    overflow: hidden;
 }
 .notices {
     display: grid;
