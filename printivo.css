@@ -133,7 +133,7 @@ header span {
     position: relative;
     padding: 50px 60px;
 }
-.hero2 .menu {
+.hero2 p button {
     display: none;
 }
 .hero2 h1 {
@@ -159,22 +159,15 @@ header span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 15px;
 }
-.hero2 form {
+ .hero2 form {
     width: 60%;
     height: 85px;
     margin-top: 5px;
     margin-left: -15px;
     border-radius: 4px;
 }
-.hero2 button img {
-    width: 20px;
-}
-.hero2 button {
-    margin-right: 5px;
-    border: none;
-    margin-left: -10px;
-    width: 30px;
-    background-color: white;
+.hero2 img {
+    height: 80px;
 }
 .hero2 form::placeholder {
     color: rgba(0, 0, 255, 0.293);
@@ -239,7 +232,6 @@ header span {
 .shadow-sm button {
     background-color: rgb(236, 163, 175);
     border: none;
-    /* text-align: center; */
     padding: 5px 10px;
     font-size: 17px;
     font-weight: 800;

@@ -105,8 +105,12 @@ header button {
     padding: 8px 5px;
     font-weight: 800px;
 }
+.heropage {
+    grid-template-rows: 30px 1fr;
+    padding-top: 90px;
+}
 .cardA {
-    width: 90%;
+    width: 100%;
 }
 .cardA h4 {
     font-size: 20px;
@@ -139,8 +143,9 @@ header button {
     width: 400px;
     line-height: 30px;
 }
+.clients h2,
 .testimonial h2 {
-    font-size: 28px;
+    font-size: 26px;
 }
 .testimonials {
     display: flex;
@@ -180,17 +185,18 @@ header button {
     font-size: 35px;
     font-weight: 700;
 }
-.hero2 .menu {
-    width: 80px;
-    height: 50px;
+.hero2 p button {
     font-size: 18px;
+    border: none;
     border-radius: 4px;
     display: inline-block;
-    padding: 2px 6px 2px 12px;
+    padding: 6px 12px;
     margin-bottom: 20px;
+    padding-top: 10px;
+    background-color: white;
 }
 .hero2 form {
-    width: 85%;
+    width: 100%;
 }
 .hero2 {
     margin-left: -20px;
@@ -198,9 +204,36 @@ header button {
 .create {
     display: none;
 }
+.countA {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
 .directories {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+}
+.notices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+}
+.noticeb img {
+    height: 23px;
+}
+.noticeb a {
+    color: black;
+    font-size: 16px;
+}
+.noticeb {
+    width: 203px;
+    margin: 20px auto;
+    margin-left: 20px;
+}
+.notice h2 {
+    margin: 0 0 20px 18px;
 }
 }
