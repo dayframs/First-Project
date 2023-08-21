@@ -173,20 +173,18 @@ header .span2 {
     top: 30px;
     right: 5px;
     cursor: pointer;
-
 }
 .hero2 form::placeholder {
     color: rgba(0, 0, 255, 0.293);
     font-size: 18px;
 }
 .carousel {
-    height: 80px;
+    height: 90px;
     background-color: rgb(243, 177, 205);
     text-align: center;
-    padding-top: 10px;
+    padding-top: 13px;
     font-size: 18px;
     font-weight: 700;
-    width: 100%;
     color: black;
 }
 .carousel,
@@ -197,7 +195,7 @@ header .span2 {
     margin-left: 5px;
     font-weight: 400;
     border-bottom: 2px solid black;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     cursor: pointer;
 }
 .cards {
@@ -227,7 +225,7 @@ header .span2 {
 }
 .cardA a {
     text-decoration: none;
-    color: rgb(203, 138, 149);
+    color: rgb(243, 177, 205);
     font-weight: 600;
     text-align: right;
     font-size: 20px;
@@ -237,7 +235,7 @@ header .span2 {
     text-decoration: none;
 }
 .shadow-sm button {
-    background-color: rgb(236, 163, 175);
+   background-color: rgb(243, 177, 205);
     border: none;
     padding: 5px 10px;
     font-size: 17px;

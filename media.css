@@ -116,10 +116,12 @@ header .span1 {
     width: 100%;
 }
 .cardA h4 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-left: -10px;
 }
 .cardA a {
-    font-size: 16px
+    font-size: 18px;
+    margin-right: 20px;
 }
 .cards {
     margin-bottom: 20px;
@@ -164,8 +166,7 @@ header .span1 {
 }
 .hero1 {
     display: grid;  
-    grid-template-columns: 250px 1fr;  
-    padding: 30px 5px 80px 30px;
+    grid-template-columns: 280px 1fr;  
     align-items: center;
     overflow: hidden;
 }
@@ -182,7 +183,7 @@ header .span1 {
     gap: 30px;
 }
 .hero1a {
-    margin-right: 50px;
+    transform: translateX(-16px);
 }
 .hero2 h1 {
     font-size: 35px;
@@ -225,22 +226,23 @@ header .span1 {
 .notices {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 88%;
+    padding: 20px;
     margin: auto;
 }
 .noticeb img {
-    height: 23px;
+    height: 21px;
 }
 .noticeb a {
     color: black;
     font-size: 16px;
 }
 .noticeb {
-    width: 203px;
-    margin: 20px auto;
-    margin-left: 20px;
+    width: 173px;
+    margin-top: 20px;
 }
 .notice h2 {
-    margin: 0 0 20px 18px;
+    margin: 0 0 20px 48px;
+    font-size: 30px;
 }
 }
