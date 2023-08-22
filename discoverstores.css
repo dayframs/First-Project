@@ -1,0 +1,6 @@
+.stores button {
+    background-color: grey;
+}
+.stores .card-body {
+    padding: 10px 0;
+}
