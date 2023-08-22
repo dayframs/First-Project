@@ -190,7 +190,8 @@ header .span1 {
     font-size: 35px;
     font-weight: 700;
 }
-.hero2 p button {
+.hero1a p select,
+.hero2 p select {
     font-size: 16px;
     border: none;
     border-radius: 3px;
@@ -198,6 +199,7 @@ header .span1 {
     padding: 10px 20px;
     margin-bottom: 28px;
     background-color: white;
+    width: 100px;
 }
 .hero2 form {
     width: 100%;

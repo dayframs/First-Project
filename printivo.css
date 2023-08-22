@@ -133,7 +133,8 @@ header .span2 {
     position: relative;
     padding: 50px 60px;
 }
-.hero2 p button {
+.hero1a p select,
+.hero2 p select {
     display: none;
 }
 .hero2 h1 {
