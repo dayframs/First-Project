@@ -297,8 +297,16 @@ header .span2 {
 }
 .testimonial h2 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 34px;
     margin-top: 20px;
+}
+.clients h2 img,
+.testimonial h2 img {
+    height: 40px;
+    width: 50px;
+}
+.testimonial h2 img {
+        transform: translateY(-5px);
 }
 .testimonials {
     display: grid;
