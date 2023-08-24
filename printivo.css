@@ -134,7 +134,7 @@ header .span2 {
     padding: 50px 60px;
 }
 .hero1a p select,
-.hero2 p select {
+.hero2 .dropdown {
     display: none;
 }
 .hero2 h1 {

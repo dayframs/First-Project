@@ -192,17 +192,31 @@ header .span1 {
 .hero2 h1 {
     font-size: 35px;
     font-weight: 700;
+    margin-top: 55px;
 }
-.hero1a p select,
-.hero2 p select {
+.hero2 .dropdown  {
     font-size: 16px;
     border: none;
     border-radius: 3px;
     display: inline-block;
     padding: 10px 20px;
-    margin-bottom: 28px;
+    margin-bottom: 40px;
     background-color: white;
-    width: 100px;
+    width: 120px;
+    position: absolute;
+}
+.hero1a .dropdown {
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.hero1a p select,
+.hero2 .dropdown a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
 }
 .hero2 form {
     width: 100%;
