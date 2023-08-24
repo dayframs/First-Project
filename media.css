@@ -211,7 +211,10 @@ header .span1 {
     padding: 10px 20px;
     border-radius: 4px;
 }
-.hero1a p select,
+.discover .dropdown {
+    display: inline-block;
+    width: 180px;
+}
 .hero2 .dropdown a {
     color: black;
     text-decoration: none;

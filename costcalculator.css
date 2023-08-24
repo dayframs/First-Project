@@ -83,3 +83,6 @@ input,
 .pre2 {
     text-align: right;
 }
+.hero1a .dropdown {
+    display: none;
+}
