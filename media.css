@@ -40,6 +40,9 @@ header .img2 {
     justify-content: right;
     align-items: center;
 }
+.hero2 i {
+    left: 59%;
+}
 .img1 {
     width: 135px;
 }
@@ -246,5 +249,23 @@ header .span1 {
 .notice h2 {
     margin: 0 0 20px 42px;
     font-size: 30px;
+}
+.calculatorA {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 85%;
+    justify-items: center;
+    margin: auto;
+}
+.calculatorA1 img {
+    display: none;
+}
+.calculatorA1 {
+    grid-template-rows: 2fr 2fr 1fr;
+    overflow: hidden;
+}
+.hero2 i {
+    left: 54%;
 }
 }

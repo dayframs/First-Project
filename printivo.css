@@ -160,24 +160,22 @@ header .span2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 15px;
 }
- .hero2 form {
-    width: 65%;
+.container-fluid {
+    position: relative;
+}
+ .hero2 input {
+    width: 70%;
     height: 85px;
     margin-top: 5px;
     margin-left: -15px;
     border-radius: 4px;
-    position: relative;
 }
-.hero2 form i {
+.hero2 i {
     font-size: 30px;
     position: absolute;
     top: 30px;
-    right: 5px;
+    left: 63%;
     cursor: pointer;
-}
-.hero2 form::placeholder {
-    color: rgba(0, 0, 255, 0.293);
-    font-size: 18px;
 }
 .carousel {
     height: 90px;
@@ -461,3 +459,4 @@ footer {
     margin-top: 70px;
     overflow: hidden;
 }
+
